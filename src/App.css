@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body{
+  background-image: url("https://image.winudf.com/v2/image1/Y29tLmJsd3Auc3BhY2Vfc2NyZWVuXzlfMTU1MjAzOTU5MF8wNzg/screen-9.jpg?fakeurl=1&type=.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tabla{
+  width: 600px;
+  height: 165px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  border: 1px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.columna{
+  border: 1px solid white;
+  margin: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fila{
+  border: 1px solid white;
+  margin: 5px;
+  padding: 2px;
+}
+
+p{
+  width: 450px;
+}
+
+.fila, h4, p{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
